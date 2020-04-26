@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="StackPOC.GridPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="10"
+              ColumnSpacing="10">
+
+            <Button x:Name="btn" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Chocolate" HeightRequest="10" VerticalOptions="Fill" Clicked="Button_Clicked" HorizontalOptions="Fill"></Button>
+            
+            <Label Grid.Row="1" Grid.Column="0" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
+            <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Red"> </BoxView>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
